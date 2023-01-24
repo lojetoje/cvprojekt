@@ -1,0 +1,124 @@
+body {
+    background-image: url("https://images6.alphacoders.com/488/488157.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.rectangle {
+    height: 2000px;
+    width: 845px;
+    background: linear-gradient(90deg, rgba(0,71,255,1) 0%, rgba(255,250,0,1) 35%, rgba(20,0,255,1) 100%);
+    background-size: 100px;
+    background-repeat: repeat;
+    border-radius: 0%;
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.space {
+    width: 1px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 2650px;
+}
+
+.vidarborg {
+    height: 433px;
+    width: 845px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+
+.circle1 {
+    width: 600px;
+    height: 550px;
+    background-color: black;
+    border-radius: 10%;
+    background-image: url("https://cdn.discordapp.com/attachments/1003798006996410481/1050730791908409365/20221010_173657.jpg");
+    background-size: cover;
+    background-position-y: -250px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle2 {
+    width: 600px;
+    height: 550px;
+    background-color: black;
+    border-radius: 10%;
+    background-image: url("https://cdn.discordapp.com/attachments/1003798006996410481/1050730792420126720/20221010_173636.jpg");
+    background-size: cover;
+    background-position-y: -250px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle4 {
+    width: 600px;
+    height: 550px;
+    background-color: black;
+    border-radius: 10%;
+    background-image: url("https://cdn.discordapp.com/attachments/1003798006996410481/1050737817120161852/IMG_1304.jpg");
+    background-size: cover;
+    background-position-y: -50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 200px;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+}
+
+.aaa {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 600px;
+    height: 550px;
+    border-radius: 10%;
+}
+
+.aa {
+    text-decoration: none;
+    color: white;
+}
+
+.form1 {
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+}
